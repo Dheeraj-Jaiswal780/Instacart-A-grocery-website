@@ -1,0 +1,261 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    background-color: maroon;
+}
+
+#navbar img {
+    display: flex;
+    flex-direction: row;
+    width: 124px;
+    height: 50px;
+    margin: 9px 1px;
+}
+
+#navbar ul li {
+    display: inline-block;
+    padding: 6px 13px;
+    font-size: 19px;
+    margin: 16px 0px 0px 0px;
+
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    color: #bea3a3;
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1.08);
+}
+
+#navbar .search {
+    margin: 14px 17px;
+}
+
+#navbar .search input {
+    border-radius: 5px;
+    border: 1px solid #89314a;
+    width: 313px;
+    height: 35px;
+
+}
+
+#navbar .btn button {
+    margin: 14px 0px 0px -16px;
+    font-size: 1.2em;
+    width: 75px;
+    height: 38px;
+    border: 1px solid #582b3f;
+    border-radius: 5px;
+    background-color: #89314a;
+    color: white;
+}
+
+#navbar .btn button:hover {
+    color: aqua;
+    cursor: pointer;
+    font-weight: 100px;
+}
+
+#main {
+    position: relative;
+    background: url(images/main1.jpg) no-repeat center center/cover;
+    height: 82vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#main h1 {
+    font-size: 3.5rem;
+    opacity: 100.1;
+    color: maroon;
+}
+
+#main h2 {
+    opacity: 100.1;
+    color: maroon;
+
+}
+
+#main .btn {
+    margin: 5vh 0vh;
+    border: 1px solid maroon;
+    border-radius: 4px;
+}
+
+#main .btn button {
+    font-size: 1.3rem;
+}
+
+#main .btn button:hover {
+    cursor: pointer;
+}
+
+#column {
+
+    position: relative;
+    margin: auto;
+
+}
+
+#column h1 {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #ae2562;
+    text-decoration: underline;
+    margin: 22px 0px 8px 0px
+}
+
+.varieties {
+    display: flex;
+    margin: auto;
+}
+
+
+
+.box {
+    margin: auto;
+    display: inline-block;
+    border: 2px solid #bea3a3;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.box:hover {
+    transform: scale(1.07);
+}
+
+.box img {
+
+    height: 19vw;
+    width: 16vw;
+}
+
+.box h3 {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+h3 {
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 500;
+    color: darkmagenta;
+}
+
+.box p {
+    display: flex;
+    justify-content: center;
+}
+
+.box1 {
+    display: inline-block;
+    border: 3px solid azure;
+    text-align: center;
+    border-radius: 5px;
+    margin: 13px 7px;
+}
+
+.box1:hover {
+    border: 2px solid #bea3a3;
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+#grocery h1 {
+    color: #ae2562;
+    margin: 37px 0px -2px 17px;
+    text-decoration: underline
+}
+#Breverage-Corner{
+    display: flex;
+    overflow: scroll;
+}
+#Foodgrains-Oils{
+    display: flex;
+    overflow: scroll;
+}
+#Snacks-food{
+    display: flex;
+    overflow: scroll;
+}
+#Home-care{
+    display: flex;
+    overflow: scroll;
+}
+#Instant-food{
+    display: flex;
+    overflow: scroll;
+}
+
+#contact{
+    background-color:maroon;
+}
+#contact h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    color: white;
+    font-family: sans-serif;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 14px;
+    font-size: 1.5rem;
+    color: white;
+    
+}
+.form input{
+    width: 158%;
+    height: 27px;
+}
+.form textarea{
+    width:158%;
+    height:162px ;
+}
+.form-button {
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0vh;
+    border: 1px solid maroon;
+    border-radius: 4px;
+    
+}
+.form-button button{
+    font-size: 1.5rem;
+}
+.form-button button:hover {
+    cursor: pointer;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #746e6e;
+    color: white;
+}
